@@ -1,10 +1,10 @@
-import Homepage from '@/components/Homepage'
+import EmailVerification from '@/components/EmailVerification'
 import React from 'react'
 
 export default function page() {
   return (
     <>
-        <Homepage/>
+        <EmailVerification/>
     </>
   )
 }

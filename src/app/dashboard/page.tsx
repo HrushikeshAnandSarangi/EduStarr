@@ -1,10 +1,10 @@
-import Homepage from '@/components/Homepage'
+import Dashboard from '@/components/Dashboard'
 import React from 'react'
 
 export default function page() {
   return (
     <>
-        <Homepage/>
+        <Dashboard/>
     </>
   )
 }

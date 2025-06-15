@@ -1,10 +1,10 @@
-import Homepage from '@/components/Homepage'
+import Register from '@/components/Registration'
 import React from 'react'
 
 export default function page() {
   return (
     <>
-        <Homepage/>
+        <Register/>
     </>
   )
 }

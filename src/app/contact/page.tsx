@@ -1,10 +1,10 @@
-import Homepage from '@/components/Homepage'
+import Contact from '@/components/Contact'
 import React from 'react'
 
 export default function page() {
   return (
     <>
-        <Homepage/>
+      <Contact/>
     </>
   )
 }

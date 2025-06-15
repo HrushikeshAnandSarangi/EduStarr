@@ -1,10 +1,10 @@
-import Homepage from '@/components/Homepage'
+import About from '@/components/About'
 import React from 'react'
 
 export default function page() {
   return (
     <>
-        <Homepage/>
+      <About/>
     </>
   )
 }
