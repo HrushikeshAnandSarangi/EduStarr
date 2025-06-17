@@ -13,6 +13,7 @@ import {
   Calendar,
   Zap,
 } from "lucide-react"
+import LottiePlayer from "./LottiePlayer"
 
 export default function About() {
   const prizeData = [
@@ -97,14 +98,14 @@ export default function About() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="text-center lg:text-left">
               <div className="inline-block px-6 py-3 rounded-full mb-6 bg-blue-600 text-white">
-                <span className="font-medium">📚 Complete Guide</span>
+                <span className="font-medium">🕮 Complete Guide</span>
               </div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 leading-tight text-gray-900">
                 ESAT 2025
                 <br />
                 <span className="text-blue-600">EduStarr Scholastic</span>
                 <br />
-                <span className="text-yellow-600">Aptitude Test</span>
+                <span className="text-blue-600">Aptitude Test</span>
               </h1>
               <p className="text-xl md:text-2xl mb-12 leading-relaxed text-gray-700">
                 Your comprehensive guide to ESAT 2025. Find all the information you need to prepare, register, and
@@ -129,15 +130,7 @@ export default function About() {
               </div>
             </div>
             <div className="relative">
-              <div className="bg-gradient-to-br from-blue-100 to-yellow-100 rounded-2xl p-8 shadow-2xl">
-                <div className="text-center">
-                  <div className="w-32 h-32 mx-auto mb-6 bg-white rounded-full flex items-center justify-center shadow-lg">
-                    <Trophy className="w-16 h-16 text-yellow-600" />
-                  </div>
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4">Excellence Awaits</h3>
-                  <p className="text-gray-700">Join thousands of students competing for scholarships worth ₹15 lakhs</p>
-                </div>
-              </div>
+              <LottiePlayer src="https://lottie.host/59d53c8b-345a-4d94-8950-6b64f7c1351c/IA126yTT8h.lottie" className=" h-full w-full"></LottiePlayer>
             </div>
           </div>
         </div>
@@ -260,20 +253,16 @@ export default function About() {
                   <h5 className="text-lg font-bold mb-4 text-yellow-600">🔹 For Classes 11 & 12</h5>
                   <div className="space-y-2">
                     <div className="flex justify-between">
-                      <span className="text-gray-700">Aptitude:</span>
-                      <span className="font-semibold text-gray-900">10 Questions</span>
-                    </div>
-                    <div className="flex justify-between">
                       <span className="text-gray-700">Physics:</span>
-                      <span className="font-semibold text-gray-900">10 Questions</span>
+                      <span className="font-semibold text-gray-900">13 Questions</span>
                     </div>
                     <div className="flex justify-between">
                       <span className="text-gray-700">Chemistry:</span>
-                      <span className="font-semibold text-gray-900">10 Questions</span>
+                      <span className="font-semibold text-gray-900">13 Questions</span>
                     </div>
                     <div className="flex justify-between">
                       <span className="text-gray-700">Math/Biology:</span>
-                      <span className="font-semibold text-gray-900">10 Questions</span>
+                      <span className="font-semibold text-gray-900">14 Questions</span>
                     </div>
                   </div>
                   <p className="text-sm mt-3 italic text-gray-600">
@@ -283,7 +272,7 @@ export default function About() {
               </div>
             </div>
 
-            <div className="mt-12 bg-gradient-to-br from-blue-50 to-yellow-50 p-8 rounded-2xl shadow-lg">
+            <div className="mt-12 bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-2xl shadow-lg">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
                 <div>
                   <h4 className="text-2xl font-bold mb-4 text-gray-900">Syllabus Coverage</h4>
@@ -305,8 +294,8 @@ export default function About() {
                   </div>
                 </div>
                 <div className="text-center">
-                  <div className="w-48 h-36 mx-auto rounded-lg shadow-lg bg-gradient-to-br from-blue-200 to-yellow-200 flex items-center justify-center">
-                    <BookOpen className="w-24 h-24 text-gray-700" />
+                  <div className="w-64 h-64 mx-auto rounded-lg  flex items-center justify-center">
+                    <LottiePlayer src="https://lottie.host/0d692851-bba5-4e1b-af9d-80ee83cab597/zvkJVl6ZRK.lottie" className=" h-full w-full"></LottiePlayer>
                   </div>
                 </div>
               </div>
@@ -377,7 +366,7 @@ export default function About() {
             <div className="bg-white p-6 rounded-2xl shadow-lg text-center hover:shadow-xl transition-all duration-300">
               <Star className="w-8 h-8 mx-auto mb-3 text-blue-600" />
               <h4 className="font-bold text-lg mb-2 text-gray-900">Other Rewards</h4>
-              <p className="text-sm text-gray-700">Medals and special recognition</p>
+              <p className="text-sm text-gray-700">Custom performance report and special recognition</p>
             </div>
           </div>
         </div>
@@ -388,7 +377,7 @@ export default function About() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <div className="inline-block px-6 py-3 rounded-full mb-6 bg-blue-600 text-white">
-                <span className="font-medium">🎯 Ready to Excel?</span>
+                <span className="font-medium">Ready to Excel?</span>
               </div>
               <h2 className="text-4xl md:text-5xl font-bold mb-8 text-gray-900">
                 Ready to Begin Your ESAT 2025 Journey?
@@ -400,7 +389,7 @@ export default function About() {
 
               <div className="bg-gradient-to-br from-blue-50 to-yellow-50 p-6 rounded-2xl mb-8">
                 <div className="text-center mb-4">
-                  <span className="text-2xl font-bold text-yellow-600">Registration Fee: ₹200 only</span>
+                  <span className="text-2xl font-bold text-yellow-500">Registration Fee: ₹200 only</span>
                 </div>
                 <h4 className="text-lg font-semibold mb-4 text-center text-gray-900">What you get:</h4>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -424,9 +413,9 @@ export default function About() {
               </div>
 
               <div>
-                <button className="px-12 py-4 rounded-2xl font-bold text-xl transition-all duration-300 hover:scale-105 hover:shadow-2xl transform active:scale-95 bg-yellow-500 text-gray-900 shadow-lg mb-4">
+                <button className="px-12 py-4 rounded-2xl font-bold text-xl transition-all duration-300 hover:scale-105 hover:shadow-2xl transform active:scale-95 bg-yellow-400 text-gray-900 shadow-lg mb-4">
                   <a href="/register">
-                  🚀 Register for ESAT 2025 Now
+                  Register for ESAT 2025 Now
                   </a>
                 </button>
                 <p className="text-lg text-gray-700">
@@ -442,27 +431,7 @@ export default function About() {
             </div>
 
             <div className="relative">
-              <div className="bg-gradient-to-br from-yellow-100 to-blue-100 rounded-2xl p-8 shadow-xl">
-                <div className="text-center">
-                  <div className="w-32 h-32 mx-auto mb-6 bg-white rounded-full flex items-center justify-center shadow-lg">
-                    <Zap className="w-16 h-16 text-blue-600" />
-                  </div>
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4">Success Awaits</h3>
-                  <p className="text-gray-700 mb-6">
-                    Join the ranks of successful ESAT achievers and unlock your potential
-                  </p>
-                  <div className="flex justify-center space-x-4">
-                    <div className="bg-white p-3 rounded-lg shadow-lg">
-                      <Trophy className="w-6 h-6 text-yellow-600" />
-                      <div className="text-xs font-bold text-gray-900">₹50K Prize</div>
-                    </div>
-                    <div className="bg-white p-3 rounded-lg shadow-lg">
-                      <Star className="w-6 h-6 text-blue-600" />
-                      <div className="text-xs font-bold text-gray-900">Top Rank</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <LottiePlayer src="https://lottie.host/23cbf3a1-951b-4397-9436-8fa9292a9255/7texk934Rw.lottie" className=" h-full w-full"></LottiePlayer>
             </div>
           </div>
         </div>

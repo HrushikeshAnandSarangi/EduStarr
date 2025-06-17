@@ -561,7 +561,7 @@ export default function DashboardPage() {
                     <p className="text-sm font-medium text-gray-600">Exam Date</p>
                   </div>
                   <p className="font-medium text-sm" style={{ color: "#0B1D3A" }}>
-                    Will be notified via email
+                    12th October, 2025(Anytime between 8:00 AM and 11:59 PM)
                   </p>
                 </div>
 
@@ -624,7 +624,7 @@ export default function DashboardPage() {
                           : "hover:scale-105 hover:shadow-xl"
                       }`}
                       style={{
-                        backgroundColor: !profileComplete ? "#9CA3AF" : "#D4AF37",
+                        backgroundColor: !profileComplete ? "#9CA3AF" : "#Ffe400",
                         color: !profileComplete ? "#6B7280" : "#0B1D3A",
                         boxShadow: !profileComplete ? "none" : "0 10px 25px rgba(212, 175, 55, 0.3)",
                       }}
@@ -767,7 +767,7 @@ export default function DashboardPage() {
                             setReferralCode(e.target.value.toUpperCase())
                             if (referralError) setReferralError("")
                           }}
-                          placeholder="Enter referral code (e.g., ABC123)"
+                          placeholder="Enter referral code"
                           className="w-full border-2 border-gray-300 px-4 py-3 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300 text-center font-mono text-lg"
                           maxLength={20}
                         />

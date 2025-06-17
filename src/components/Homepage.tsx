@@ -63,13 +63,13 @@ export default function Homepage() {
                   <button
                     className="px-12 py-5 rounded-xl font-bold text-xl transition-all duration-300 hover:scale-105 hover:shadow-2xl transform active:scale-95 relative overflow-hidden group"
                     style={{
-                      backgroundColor: "#D4AF37",
+                      backgroundColor: "#Ffe400",
                       color: "#0B1D3A",
                       boxShadow: "0 10px 30px rgba(212, 175, 55, 0.4)",
                     }}
                   >
                     <span className="relative z-10"><a href="/register">Register Now - ₹200 Only</a></span>
-                    <div className="absolute inset-0 bg-gradient-to-r from-yellow-400 to-yellow-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <div className="absolute inset-0 bg-gradient-to-r from-yellow-200 to-yellow-300 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   </button>
                   <button
                     className="px-12 py-5 rounded-xl font-bold text-xl transition-all duration-300 hover:scale-105 hover:shadow-2xl transform active:scale-95 border-3 hover:bg-white"
@@ -157,152 +157,191 @@ export default function Homepage() {
                 The smartest way to showcase talent, win scholarships, and accelerate your academic journey.
               </p>
             </div>
-
+              
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {/* Card 1 - Discover Strengths */}
-              <div className="group bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-105 border border-gray-100 animate-slide-up relative overflow-hidden">
+              <div 
+                className="group bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-105 border border-gray-100 animate-slide-up relative overflow-hidden h-full flex flex-col"
+                style={{ animationDelay: "0.1s", animationFillMode: "both" }}
+              >
                 <div className="absolute top-0 right-0 w-20 h-20 bg-blue-50 rounded-full -mr-10 -mt-10 group-hover:scale-150 transition-transform duration-500"></div>
-                <div className="relative z-10">
-                  <div className="mb-6 text-center">
-                    <Image 
-                      src='https://res.cloudinary.com/dk6m1qejk/image/upload/v1749507100/Fitz_-_Strength_Training_nxokvz.png' 
-                      width={400}
-                      height={300}
-                      className="rounded-2xl w-full h-auto" 
-                      alt="Discover your strengths"
-                    />
+                <div className="relative z-10 flex flex-col h-full">
+                  <div className="mb-6 text-center flex-shrink-0">
+                    <div className="h-48 w-full">
+                      <Image 
+                        src='https://res.cloudinary.com/dk6m1qejk/image/upload/v1749507100/Fitz_-_Strength_Training_nxokvz.png' 
+                        width={400}
+                        height={300}
+                        className="rounded-2xl w-full h-full object-contain" 
+                        alt="Discover your strengths"
+                      />
+                    </div>
                   </div>
-                  <h3 className="text-2xl font-bold mb-4 text-center" style={{ color: "#0B1D3A" }}>
-                    Discover Your Strengths
-                  </h3>
-                  <p className="text-lg leading-relaxed text-center" style={{ color: "#111111" }}>
-                    Get detailed insights into your academic abilities and discover subjects where you naturally excel.
-                  </p>
+                  <div className="flex flex-col flex-grow">
+                    <h3 className="text-2xl font-bold mb-4 text-center min-h-[4rem] flex items-center justify-center" style={{ color: "#0B1D3A" }}>
+                      Discover Your Strengths
+                    </h3>
+                    <div className="flex-grow flex items-center justify-center">
+                      <p className="text-lg leading-relaxed text-center" style={{ color: "#111111" }}>
+                        Get detailed insights into your academic abilities and discover subjects where you naturally excel.
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
-
+              
               {/* Card 2 - Win Scholarships */}
               <div
-                className="group bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-105 border border-gray-100 animate-slide-up relative overflow-hidden"
-                style={{ animationDelay: "0.1s" }}
+                className="group bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-105 border border-gray-100 animate-slide-up relative overflow-hidden h-full flex flex-col"
+                style={{ animationDelay: "0.2s", animationFillMode: "both" }}
               >
                 <div className="absolute top-0 right-0 w-20 h-20 bg-yellow-50 rounded-full -mr-10 -mt-10 group-hover:scale-150 transition-transform duration-500"></div>
-                <div className="relative z-10">
-                  <div className="mb-6 text-center">
-                    <Image 
-                      src='https://res.cloudinary.com/dk6m1qejk/image/upload/v1749507998/Hands_-_Graduate_gsulux.png' 
-                      width={400}
-                      height={300}
-                      className="rounded-2xl w-full h-auto" 
-                      alt="Discover your strengths"
-                    />
+                <div className="relative z-10 flex flex-col h-full">
+                  <div className="mb-6 text-center flex-shrink-0">
+                    <div className="h-48 w-full">
+                      <Image 
+                        src='https://res.cloudinary.com/dk6m1qejk/image/upload/v1749507998/Hands_-_Graduate_gsulux.png' 
+                        width={400}
+                        height={300}
+                        className="rounded-2xl w-full h-full object-contain" 
+                        alt="Win big scholarships"
+                      />
+                    </div>
                   </div>
-                  <h3 className="text-2xl font-bold mb-4 text-center" style={{ color: "#0B1D3A" }}>
-                    Win Big Scholarships
-                  </h3>
-                  <p className="text-lg leading-relaxed text-center" style={{ color: "#111111" }}>
-                    Top performers earn scholarships up to ₹50,000 plus certificates, medals, and recognition.
-                  </p>
+                  <div className="flex flex-col flex-grow">
+                    <h3 className="text-2xl font-bold mb-4 text-center min-h-[4rem] flex items-center justify-center" style={{ color: "#0B1D3A" }}>
+                      Win Big Scholarships
+                    </h3>
+                    <div className="flex-grow flex items-center justify-center">
+                      <p className="text-lg leading-relaxed text-center" style={{ color: "#111111" }}>
+                        Top performers earn scholarships up to ₹50,000 plus certificates, medals, and recognition.
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
-
+              
               {/* Card 3 - National Recognition */}
               <div
-                className="group bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-105 border border-gray-100 animate-slide-up relative overflow-hidden"
-                style={{ animationDelay: "0.2s" }}
+                className="group bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-105 border border-gray-100 animate-slide-up relative overflow-hidden h-full flex flex-col"
+                style={{ animationDelay: "0.3s", animationFillMode: "both" }}
               >
                 <div className="absolute top-0 right-0 w-20 h-20 bg-blue-50 rounded-full -mr-10 -mt-10 group-hover:scale-150 transition-transform duration-500"></div>
-                <div className="relative z-10">
-                  <div className="mb-6 text-center">
-                                        <Image 
-                      src='https://res.cloudinary.com/dk6m1qejk/image/upload/v1749507939/Brazuca_-_Medal_gq2yij.png' 
-                      width={400}
-                      height={300}
-                      className="rounded-2xl w-full h-auto" 
-                      alt="Discover your strengths"
-                    />
+                <div className="relative z-10 flex flex-col h-full">
+                  <div className="mb-6 text-center flex-shrink-0">
+                    <div className="h-48 w-full">
+                      <Image 
+                        src='https://res.cloudinary.com/dk6m1qejk/image/upload/v1749507939/Brazuca_-_Medal_gq2yij.png' 
+                        width={400}
+                        height={300}
+                        className="rounded-2xl w-full h-full object-contain" 
+                        alt="National recognition"
+                      />
+                    </div>
                   </div>
-                  <h3 className="text-2xl font-bold mb-4 text-center" style={{ color: "#0B1D3A" }}>
-                    National Recognition
-                  </h3>
-                  <p className="text-lg leading-relaxed text-center" style={{ color: "#111111" }}>
-                    Join an elite community of high achievers and gain recognition on a national platform.
-                  </p>
+                  <div className="flex flex-col flex-grow">
+                    <h3 className="text-2xl font-bold mb-4 text-center min-h-[4rem] flex items-center justify-center" style={{ color: "#0B1D3A" }}>
+                      National Recognition
+                    </h3>
+                    <div className="flex-grow flex items-center justify-center">
+                      <p className="text-lg leading-relaxed text-center" style={{ color: "#111111" }}>
+                        Join an elite community of high achievers and gain recognition on a national platform.
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
-
+              
               {/* Card 4 - NCERT Aligned */}
               <div
-                className="group bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-105 border border-gray-100 animate-slide-up relative overflow-hidden"
-                style={{ animationDelay: "0.3s" }}
+                className="group bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-105 border border-gray-100 animate-slide-up relative overflow-hidden h-full flex flex-col"
+                style={{ animationDelay: "0.4s", animationFillMode: "both" }}
               >
                 <div className="absolute top-0 right-0 w-20 h-20 bg-yellow-50 rounded-full -mr-10 -mt-10 group-hover:scale-150 transition-transform duration-500"></div>
-                <div className="relative z-10">
-                  <div className="mb-6 text-center">
-                    <Image 
-                      src='https://res.cloudinary.com/dk6m1qejk/image/upload/v1749508103/Hands_-_Book_ooqxnu.png' 
-                      width={400}
-                      height={300}
-                      className="rounded-2xl w-full h-auto" 
-                      alt="Discover your strengths"
-                    />
+                <div className="relative z-10 flex flex-col h-full">
+                  <div className="mb-6 text-center flex-shrink-0">
+                    <div className="h-48 w-full">
+                      <Image 
+                        src='https://res.cloudinary.com/dk6m1qejk/image/upload/v1749508103/Hands_-_Book_ooqxnu.png' 
+                        width={400}
+                        height={300}
+                        className="rounded-2xl w-full h-full object-contain" 
+                        alt="NCERT aligned syllabus"
+                      />
+                    </div>
                   </div>
-                  <h3 className="text-2xl font-bold mb-4 text-center" style={{ color: "#0B1D3A" }}>
-                    NCERT-Aligned Syllabus
-                  </h3>
-                  <p className="text-lg leading-relaxed text-center" style={{ color: "#111111" }}>
-                    No extra preparation needed! Our syllabus perfectly aligns with your school curriculum.
-                  </p>
+                  <div className="flex flex-col flex-grow">
+                    <h3 className="text-2xl font-bold mb-4 text-center min-h-[4rem] flex items-center justify-center" style={{ color: "#0B1D3A" }}>
+                      NCERT-Aligned Syllabus
+                    </h3>
+                    <div className="flex-grow flex items-center justify-center">
+                      <p className="text-lg leading-relaxed text-center" style={{ color: "#111111" }}>
+                        No extra preparation needed! Our syllabus perfectly aligns with your school curriculum.
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
-
+              
               {/* Card 5 - Expert Mentorship */}
               <div
-                className="group bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-105 border border-gray-100 animate-slide-up relative overflow-hidden"
-                style={{ animationDelay: "0.4s" }}
+                className="group bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-105 border border-gray-100 animate-slide-up relative overflow-hidden h-full flex flex-col"
+                style={{ animationDelay: "0.5s", animationFillMode: "both" }}
               >
                 <div className="absolute top-0 right-0 w-20 h-20 bg-blue-50 rounded-full -mr-10 -mt-10 group-hover:scale-150 transition-transform duration-500"></div>
-                <div className="relative z-10">
-                  <div className="mb-6 text-center">
-                    <Image 
-                      src='https://res.cloudinary.com/dk6m1qejk/image/upload/v1749508214/Croods_-_Keeping_in_Touch_fj6hxx.png' 
-                      width={400}
-                      height={300}
-                      className="rounded-2xl w-full h-auto" 
-                      alt="Discover your strengths"
-                    />
+                <div className="relative z-10 flex flex-col h-full">
+                  <div className="mb-6 text-center flex-shrink-0">
+                    <div className="h-48 w-full">
+                      <Image 
+                        src='https://res.cloudinary.com/dk6m1qejk/image/upload/v1749508214/Croods_-_Keeping_in_Touch_fj6hxx.png' 
+                        width={400}
+                        height={300}
+                        className="rounded-2xl w-full h-full object-contain" 
+                        alt="Expert mentorship"
+                      />
+                    </div>
                   </div>
-                  <h3 className="text-2xl font-bold mb-4 text-center" style={{ color: "#0B1D3A" }}>
-                    Expert Mentorship
-                  </h3>
-                  <p className="text-lg leading-relaxed text-center" style={{ color: "#111111" }}>
-                    Top performers receive free mentorship and premium learning resources for continued growth.
-                  </p>
+                  <div className="flex flex-col flex-grow">
+                    <h3 className="text-2xl font-bold mb-4 text-center min-h-[4rem] flex items-center justify-center" style={{ color: "#0B1D3A" }}>
+                      Expert Mentorship
+                    </h3>
+                    <div className="flex-grow flex items-center justify-center">
+                      <p className="text-lg leading-relaxed text-center" style={{ color: "#111111" }}>
+                        Top performers receive free mentorship and premium learning resources for continued growth.
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
-
+              
               {/* Card 6 - Fair & Transparent */}
               <div
-                className="group bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-105 border border-gray-100 animate-slide-up relative overflow-hidden"
-                style={{ animationDelay: "0.5s" }}
+                className="group bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-105 border border-gray-100 animate-slide-up relative overflow-hidden h-full flex flex-col"
+                style={{ animationDelay: "0.6s", animationFillMode: "both" }}
               >
                 <div className="absolute top-0 right-0 w-20 h-20 bg-yellow-50 rounded-full -mr-10 -mt-10 group-hover:scale-150 transition-transform duration-500"></div>
-                <div className="relative z-10">
-                  <div className="mb-6 text-center">
-                    <Image 
-                      src='https://res.cloudinary.com/dk6m1qejk/image/upload/v1749508421/The_Little_Things_-_Business_Planning_dd98au.png' 
-                      width={400}
-                      height={300}
-                      className="rounded-2xl w-full h-auto" 
-                      alt="Discover your strengths"
-                    />
+                <div className="relative z-10 flex flex-col h-full">
+                  <div className="mb-6 text-center flex-shrink-0">
+                    <div className="h-48 w-full">
+                      <Image 
+                        src='https://res.cloudinary.com/dk6m1qejk/image/upload/v1749508421/The_Little_Things_-_Business_Planning_dd98au.png' 
+                        width={400}
+                        height={300}
+                        className="rounded-2xl w-full h-full object-contain" 
+                        alt="Fair and transparent"
+                      />
+                    </div>
                   </div>
-                  <h3 className="text-2xl font-bold mb-4 text-center" style={{ color: "#0B1D3A" }}>
-                    Fair & Transparent
-                  </h3>
-                  <p className="text-lg leading-relaxed text-center" style={{ color: "#111111" }}>
-                    Every student gets an equal opportunity to shine, regardless of background or location.
-                  </p>
+                  <div className="flex flex-col flex-grow">
+                    <h3 className="text-2xl font-bold mb-4 text-center min-h-[4rem] flex items-center justify-center" style={{ color: "#0B1D3A" }}>
+                      Fair & Transparent
+                    </h3>
+                    <div className="flex-grow flex items-center justify-center">
+                      <p className="text-lg leading-relaxed text-center" style={{ color: "#111111" }}>
+                        Every student gets an equal opportunity to shine, regardless of background or location.
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -574,11 +613,11 @@ export default function Homepage() {
                 <div className="absolute -bottom-6 -left-6 w-24 h-24 rounded-2xl bg-blue-200 opacity-70 transform -rotate-12 z-0"></div>
 
                 {/* Success metrics floating around */}
-                <div className="absolute -top-8 -left-8 bg-white p-3 rounded-lg shadow-lg transform -rotate-6 animate-float">
-                  <div className="text-2xl font-bold" style={{ color: "#D4AF37" }}>
+                <div className="absolute -top-8 -left-8 bg-white p-3 rounded-lg shadow-lg transform -rotate-6 animate-float justify-center text-center">
+                  <div className="text-2xl font-bold justify-center" style={{ color: "#D4AF37" }}>
                     ₹50K
                   </div>
-                  <div className="text-xs" style={{ color: "#111111" }}>
+                  <div className="text-xs justify-center " style={{ color: "#111111" }}>
                     Max Prize
                   </div>
                 </div>
