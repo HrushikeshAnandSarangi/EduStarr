@@ -63,7 +63,7 @@ export default function Navbar() {
                   filter: 'drop-shadow(0 1px 2px rgba(1, 117, 195, 0.1))'
                 }}
               >
-                EduStarrr
+                EduStarr
               </a>
             </div>
 

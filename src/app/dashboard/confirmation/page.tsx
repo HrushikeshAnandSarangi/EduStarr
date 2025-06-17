@@ -34,7 +34,7 @@ export default function ConfirmationPage() {
         <p><strong>Class:</strong> {data.class}</p>
         <p><strong>Email:</strong> {data.email}</p>
         <p><strong>Mobile:</strong> {data.mobile}</p>
-        <p><strong>Exam Date:</strong>To be notified through mail</p>
+        <p><strong>Exam Date:</strong>12th October, 2025(Anytime between 8:00 AM and 11:59 PM)</p>
         <p><strong>Exam Mode:</strong> Online</p>
         <p><strong>Referral Code:</strong> {data.referral_code || 'N/A'}</p>
       </div>

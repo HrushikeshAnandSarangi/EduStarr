@@ -156,7 +156,7 @@ export default function About() {
                 <p className="text-center text-gray-700">Online (Computer Based Test)</p>
               </div>
               <div className="bg-gradient-to-br from-yellow-50 to-yellow-100 p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
-                <div className="w-12 h-12 rounded-xl flex items-center justify-center mb-4 mx-auto bg-yellow-600">
+                <div className="w-12 h-12 rounded-xl flex items-center justify-center mb-4 mx-auto bg-yellow-400">
                   <FileText className="w-6 h-6 text-gray-900" />
                 </div>
                 <h4 className="text-lg font-bold mb-2 text-center text-gray-900">Question Type</h4>
@@ -172,7 +172,7 @@ export default function About() {
                 <p className="text-center text-gray-700">English</p>
               </div>
               <div className="bg-gradient-to-br from-yellow-50 to-yellow-100 p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
-                <div className="w-12 h-12 rounded-xl flex items-center justify-center mb-4 mx-auto bg-yellow-600">
+                <div className="w-12 h-12 rounded-xl flex items-center justify-center mb-4 mx-auto bg-yellow-400">
                   <Users className="w-6 h-6 text-gray-900" />
                 </div>
                 <h4 className="text-lg font-bold mb-2 text-center text-gray-900">Eligibility</h4>
@@ -187,7 +187,7 @@ export default function About() {
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="flex items-center">
-                  <Clock className="w-6 h-6 mr-3 text-yellow-600" />
+                  <Clock className="w-6 h-6 mr-3 text-yellow-400" />
                   <div>
                     <p className="font-semibold text-gray-900">Flexible Timing</p>
                     <p className="text-gray-700">
