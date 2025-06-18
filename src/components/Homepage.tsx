@@ -169,7 +169,7 @@ export default function Homepage() {
                   <div className="mb-6 text-center flex-shrink-0">
                     <div className="h-48 w-full">
                       <Image 
-                        src='https://res.cloudinary.com/dk6m1qejk/image/upload/v1749507100/Fitz_-_Strength_Training_nxokvz.png' 
+                        src='https://res.cloudinary.com/dk6m1qejk/image/upload/v1750290238/Strengths_ntnomp.png' 
                         width={400}
                         height={300}
                         className="rounded-2xl w-full h-full object-contain" 
@@ -200,7 +200,7 @@ export default function Homepage() {
                   <div className="mb-6 text-center flex-shrink-0">
                     <div className="h-48 w-full">
                       <Image 
-                        src='https://res.cloudinary.com/dk6m1qejk/image/upload/v1749507998/Hands_-_Graduate_gsulux.png' 
+                        src='https://res.cloudinary.com/dk6m1qejk/image/upload/v1750290246/7855864_dbqoxn.png' 
                         width={400}
                         height={300}
                         className="rounded-2xl w-full h-full object-contain" 
@@ -231,7 +231,7 @@ export default function Homepage() {
                   <div className="mb-6 text-center flex-shrink-0">
                     <div className="h-48 w-full">
                       <Image 
-                        src='https://res.cloudinary.com/dk6m1qejk/image/upload/v1749507939/Brazuca_-_Medal_gq2yij.png' 
+                        src='https://res.cloudinary.com/dk6m1qejk/image/upload/v1750290232/Recognition_txudm2.png' 
                         width={400}
                         height={300}
                         className="rounded-2xl w-full h-full object-contain" 
@@ -262,7 +262,7 @@ export default function Homepage() {
                   <div className="mb-6 text-center flex-shrink-0">
                     <div className="h-48 w-full">
                       <Image 
-                        src='https://res.cloudinary.com/dk6m1qejk/image/upload/v1749508103/Hands_-_Book_ooqxnu.png' 
+                        src='https://res.cloudinary.com/dk6m1qejk/image/upload/v1750290243/Syllabus_qkulq9.png' 
                         width={400}
                         height={300}
                         className="rounded-2xl w-full h-full object-contain" 
@@ -293,7 +293,7 @@ export default function Homepage() {
                   <div className="mb-6 text-center flex-shrink-0">
                     <div className="h-48 w-full">
                       <Image 
-                        src='https://res.cloudinary.com/dk6m1qejk/image/upload/v1749508214/Croods_-_Keeping_in_Touch_fj6hxx.png' 
+                        src='https://res.cloudinary.com/dk6m1qejk/image/upload/v1750290235/4955889_ea0xtq.png' 
                         width={400}
                         height={300}
                         className="rounded-2xl w-full h-full object-contain" 
