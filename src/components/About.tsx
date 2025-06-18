@@ -389,7 +389,7 @@ export default function About() {
 
               <div className="bg-gradient-to-br from-blue-50 to-yellow-50 p-6 rounded-2xl mb-8">
                 <div className="text-center mb-4">
-                  <span className="text-2xl font-bold text-yellow-500">Registration Fee: ₹200 only</span>
+                  <span className="text-2xl font-bold text-yellow-500 ">Registration Fee: ₹200 only</span>
                 </div>
                 <h4 className="text-lg font-semibold mb-4 text-center text-gray-900">What you get:</h4>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -413,7 +413,7 @@ export default function About() {
               </div>
 
               <div>
-                <button className="px-12 py-4 rounded-2xl font-bold text-xl transition-all duration-300 hover:scale-105 hover:shadow-2xl transform active:scale-95 bg-yellow-400 text-gray-900 shadow-lg mb-4">
+                <button className="px-12 py-4 rounded-2xl font-bold text-xl transition-all duration-300 hover:scale-105 hover:shadow-2xl transform active:scale-95 bg-yellow-400 hover:bg-yellow-500 text-gray-900 shadow-lg mb-4">
                   <a href="/register">
                   Register for ESAT 2025 Now
                   </a>

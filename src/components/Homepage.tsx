@@ -69,7 +69,7 @@ export default function Homepage() {
                     }}
                   >
                     <span className="relative z-10"><a href="/register">Register Now - ₹200 Only</a></span>
-                    <div className="absolute inset-0 bg-gradient-to-r from-yellow-200 to-yellow-300 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <div className="absolute inset-0 bg-yellow-400 hover:bg-yellow-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   </button>
                   <button
                     className="px-12 py-5 rounded-xl font-bold text-xl transition-all duration-300 hover:scale-105 hover:shadow-2xl transform active:scale-95 border-3 hover:bg-white"
@@ -214,7 +214,7 @@ export default function Homepage() {
                     </h3>
                     <div className="flex-grow flex items-center justify-center">
                       <p className="text-lg leading-relaxed text-center" style={{ color: "#111111" }}>
-                        Top performers earn scholarships up to ₹50,000 plus certificates, medals, and recognition.
+                        Top performers earn scholarships up to ₹50,000 plus certificates, mentorship, and recognition.
                       </p>
                     </div>
                   </div>
@@ -580,13 +580,13 @@ export default function Homepage() {
                   <button
                     className="px-16 py-6 rounded-2xl font-bold text-2xl transition-all duration-300 hover:scale-105 hover:shadow-2xl transform active:scale-95 relative overflow-hidden group mb-6"
                     style={{
-                      backgroundColor: "#D4AF37",
+                      backgroundColor: "#Ffe400",
                       color: "#0B1D3A",
                       boxShadow: "0 15px 35px rgba(212, 175, 55, 0.4)",
                     }}
                   ><a href="/register">
                     <span className="relative z-10"> Register for ESAT 2025 Now</span></a>
-                    <div className="absolute inset-0 bg-gradient-to-r from-yellow-400 to-yellow-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <div className="absolute inset-0 bg-yellow-400  opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   </button>
 
                   <p className="text-lg" style={{ color: "#111111" }}>
